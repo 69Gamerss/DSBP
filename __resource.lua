@@ -227,6 +227,51 @@ data_file 'VEHICLE_VARIATION_FILE'   'data/daemon11/carvariations.meta'
 data_file 'VEHICLE_LAYOUTS_FILE'     'data/daemon11/vehiclelayouts.meta'
 
 
+files {
+    'data/zx10r/vehicles.meta',
+    'data/zx10r/handling.meta',
+    'data/zx10r/carcols.meta',
+    'data/zx10r/carvariations.meta',
+    'data/zx10r/vehiclelayouts.meta',
+}
+
+data_file 'HANDLING_FILE'            'data/zx10r/handling.meta'
+data_file 'VEHICLE_METADATA_FILE'    'data/zx10r/vehicles.meta'
+data_file 'CARCOLS_FILE'             'data/zx10r/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE'   'data/zx10r/carvariations.meta'
+data_file 'VEHICLE_LAYOUTS_FILE'     'data/zx10r/vehiclelayouts.meta'
+
+
+files {
+    'data/r1/vehicles.meta',
+    'data/r1/handling.meta',
+    'data/r1/carcols.meta',
+    'data/r1/carvariations.meta',
+    'data/r1/vehiclelayouts.meta',
+}
+
+data_file 'HANDLING_FILE'            'data/r1/handling.meta'
+data_file 'VEHICLE_METADATA_FILE'    'data/r1/vehicles.meta'
+data_file 'CARCOLS_FILE'             'data/r1/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE'   'data/r1/carvariations.meta'
+data_file 'VEHICLE_LAYOUTS_FILE'     'data/r1/vehiclelayouts.meta'
+
+
+files {
+    'data/r6/vehicles.meta',
+    'data/r6/handling.meta',
+    'data/r6/carcols.meta',
+    'data/r6/carvariations.meta',
+    'data/r6/vehiclelayouts.meta',
+}
+
+data_file 'HANDLING_FILE'            'data/r6/handling.meta'
+data_file 'VEHICLE_METADATA_FILE'    'data/r6/vehicles.meta'
+data_file 'CARCOLS_FILE'             'data/r6/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE'   'data/r6/carvariations.meta'
+data_file 'VEHICLE_LAYOUTS_FILE'     'data/r6/vehiclelayouts.meta'
+
+
 
 client_script {
     'vehicle_names.lua'
